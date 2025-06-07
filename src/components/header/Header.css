@@ -1,0 +1,12 @@
+header{
+    width: 100%;
+    height: 363px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.C_image{
+    width: 125px;
+    height: 125px;
+}
