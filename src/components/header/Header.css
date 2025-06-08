@@ -3,7 +3,7 @@ header{
     width: 100%;
     height: 363px;
     display: flex;
-    justify-content: center;
+    justify-content: end;
     align-items: center;
     background-image: url(../../assets/bg_img.png);
     background-repeat: no-repeat;
@@ -22,7 +22,8 @@ header{
 
 h1{
     font-weight: 600;
-    font-size: 28px;
+    font-size: 36px;
     color: #4C545C;
+    margin: 0;
 }
 
