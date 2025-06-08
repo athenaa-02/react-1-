@@ -5,8 +5,8 @@ function Header(){
     return(
     <>
     <header>
-        <img className='C_image' src="../../assets/Combined.png" alt="" />
-        <p className='header_title'>A history of everything you copy</p>
+        <div className='C_logo'></div>
+        <h1 className='header_title'>A history of everything you copy</h1>
     </header>
     </>
     )
