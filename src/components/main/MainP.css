@@ -7,13 +7,15 @@ section.download{
     align-items: center;
     gap: 48px;
     margin-top: 16px;
+    margin-bottom: 150px;
 }
 
-article.small_text{
+article{
     font-size: 17px;
     font-weight: 400;
-    width: 723px;
+    width: 715px;
     text-align: center;
+    color: #9EABB2;
 }
 
 div.btns{
@@ -36,4 +38,24 @@ button{
 }
 .Mac{
     background-color: #6174FF;
+}
+
+/* section 2 */
+
+div.description_text{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+.description_text h2{
+    font-weight: 600;
+    font-size: 27px;
+    color: #4C545C;
+}
+
+.screen_img{
+    background-image: url(../../assets/);
+    width: 200px;
+    height: 200px;
 }
