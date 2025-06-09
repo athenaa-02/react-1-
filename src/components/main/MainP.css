@@ -50,7 +50,7 @@ div.description_text{
 }
 .description_text h2{
     font-weight: 600;
-    font-size: 27px;
+    font-size: 36px;
     color: #4C545C;
 }
 
@@ -58,4 +58,42 @@ div.description_text{
     background-image: url(../../assets/);
     width: 200px;
     height: 200px;
+}
+
+div.screenimg_text{
+   display: flex;
+   margin-top: 80px;
+   gap: 110px;
+   align-items: center;
+   margin-bottom: 150px;
+}
+
+aside.steps{
+    display: flex;
+    flex-direction: column;
+    gap: 56px;
+}
+
+/* section 3 */
+section.access{
+display: flex;
+flex-direction: column;
+align-items: center;
+gap: 110px;
+}
+
+h4{
+font-size: 36px;
+color: #4C545C;
+text-align: center;
+margin: 0;
+margin-bottom: 19px;
+}
+
+
+/* section4 */
+section.containers{
+   display: flex;
+   justify-content: center;
+   margin-top: 72px;
 }
