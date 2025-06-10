@@ -2,10 +2,13 @@ import '../main/MainP.css'
 import screen from '../../assets/screen.png'
 import Childcomponent from '../childcomponent/Childcomponent'
 import Containers from '../containers/Containers'
+import Companies from '../companies/companies'
 import tabs from '../../assets/tabs.png'
 import logo1 from '../../assets/logo1.svg'
 import logo2 from '../../assets/logo2.svg'
 import logo3 from '../../assets/logo3.svg'
+import Google from '../../assets/Google.png'
+import vector from '../../assets/vector.png'
 
 
 function Mainpage() {
@@ -72,6 +75,24 @@ function Mainpage() {
         <Containers img={logo1} title='Create blacklists' text='Ensure sensitive information never makes its way to your clipboard by excluding certain sources.'></Containers>
         <Containers img={logo2} title='Plain text snippets' text='Remove unwanted formatting from copied text for a consistent look.'></Containers>
         <Containers img={logo3} title='Sneak preview' text='Quick preview of all snippets on your Clipboard for easy access.'></Containers>
+      </section>
+
+      <section className='logos'>
+        <Companies img={Google}></Companies>
+        <Companies img={vector}></Companies>
+      </section>
+
+      <section className="clipboard">
+        <h6>Clipboard for iOS and Mac OS</h6>
+        <article >
+          Available for free on the App Store.
+          Download for Mac or iOS, sync with iCloud
+          and you’re ready to start adding to your clipboard.
+        </article>
+        <div className="btns">
+          <button className='IOS'>Download for iOS</button>
+          <button className='Mac'>Download for Mac</button>
+        </div>
       </section>
     </>
   )

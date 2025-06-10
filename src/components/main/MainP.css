@@ -97,3 +97,32 @@ section.containers{
    justify-content: center;
    margin-top: 72px;
 }
+
+/* section5 */
+section.logos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+    margin: 162px 0 162px 0;
+}
+
+/* section 6 */
+section.clipboard{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+h6{
+    color: #4C545C;
+    font-size: 36px;
+    margin: 0 0 19px 0;
+}
+section.clipboard div.btns{
+    margin: 48px 0 150px 0;
+}
+section.clipboard article{
+    font-size: 18px;
+    line-height: 30px;
+    
+}
